@@ -11,3 +11,100 @@ Migrating to CreateRecords (20161126004817)
   [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", 2016-11-27 01:52:57 UTC], ["updated_at", 2016-11-27 01:52:57 UTC]]
   [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mRecord Load (33.2ms)[0m  [1m[34mSELECT "records".* FROM "records"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (13.7ms)[0m  [1m[32mINSERT INTO "records" ("title", "date", "amount", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Record 1"], ["date", Sun, 27 Nov 2016], ["amount", 57.0], ["created_at", 2016-11-28 23:38:10 UTC], ["updated_at", 2016-11-28 23:38:10 UTC]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "records" ("title", "date", "amount", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Record 2"], ["date", Mon, 28 Nov 2016], ["amount", 75.0], ["created_at", 2016-11-28 23:39:44 UTC], ["updated_at", 2016-11-28 23:39:44 UTC]]
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for ::1 at 2016-11-28 17:41:55 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/railties-5.0.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/railties-5.0.0.1/lib/rails/templates/rails/welcome/index.html.erb (13.6ms)
+Completed 200 OK in 74ms (Views: 39.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-11-28 17:48:27 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/railties-5.0.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/railties-5.0.0.1/lib/rails/templates/rails/welcome/index.html.erb (4.6ms)
+Completed 200 OK in 14ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-11-28 18:09:55 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/railties-5.0.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/railties-5.0.0.1/lib/rails/templates/rails/welcome/index.html.erb (4.0ms)
+Completed 200 OK in 38ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/records" for ::1 at 2016-11-28 18:30:30 -0600
+Processing by RecordsController#index as HTML
+  Rendering records/index.html.erb within layouts/application
+  [1m[36mRecord Load (7.8ms)[0m  [1m[34mSELECT "records".* FROM "records"[0m
+  Rendered records/index.html.erb within layouts/application (547.3ms)
+Completed 200 OK in 4238ms (Views: 4202.7ms | ActiveRecord: 8.6ms)
+
+
+Started GET "/records" for ::1 at 2016-11-28 18:38:58 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RecordsController#index as HTML
+  Rendering records/index.html.erb within layouts/application
+  [1m[36mRecord Load (14.8ms)[0m  [1m[34mSELECT "records".* FROM "records"[0m
+  Rendered records/index.html.erb within layouts/application (61.9ms)
+Completed 200 OK in 6752ms (Views: 6678.1ms | ActiveRecord: 16.1ms)
+
+
+Started GET "/records" for ::1 at 2016-11-28 18:40:50 -0600
+Processing by RecordsController#index as HTML
+  Rendering records/index.html.erb within layouts/application
+  [1m[36mRecord Load (17.0ms)[0m  [1m[34mSELECT "records".* FROM "records"[0m
+  Rendered records/index.html.erb within layouts/application (20.4ms)
+Completed 200 OK in 1070ms (Views: 1037.9ms | ActiveRecord: 17.0ms)
+
+
+Started GET "/records" for ::1 at 2016-11-28 18:46:13 -0600
+Processing by RecordsController#index as HTML
+  Rendering records/index.html.erb within layouts/application
+  [1m[36mRecord Load (0.9ms)[0m  [1m[34mSELECT "records".* FROM "records"[0m
+  Rendered records/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 707ms (Views: 702.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/records" for ::1 at 2016-11-28 18:47:22 -0600
+Processing by RecordsController#index as HTML
+  Rendering records/index.html.erb within layouts/application
+  [1m[36mRecord Load (0.4ms)[0m  [1m[34mSELECT "records".* FROM "records"[0m
+  Rendered records/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 672ms (Views: 666.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/records" for ::1 at 2016-11-28 18:56:33 -0600
+Processing by RecordsController#index as HTML
+  Rendering records/index.html.erb within layouts/application
+  [1m[36mRecord Load (0.2ms)[0m  [1m[34mSELECT "records".* FROM "records"[0m
+  Rendered records/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1065ms (Views: 1050.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/records" for ::1 at 2016-11-28 18:56:54 -0600
+Processing by RecordsController#index as HTML
+  Rendering records/index.html.erb within layouts/application
+  [1m[36mRecord Load (7.4ms)[0m  [1m[34mSELECT "records".* FROM "records"[0m
+  Rendered records/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 824ms (Views: 812.8ms | ActiveRecord: 7.4ms)
+
+
+Started GET "/records" for ::1 at 2016-11-28 18:57:12 -0600
+Processing by RecordsController#index as HTML
+  Rendering records/index.html.erb within layouts/application
+  [1m[36mRecord Load (0.2ms)[0m  [1m[34mSELECT "records".* FROM "records"[0m
+  Rendered records/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 135ms (Views: 131.3ms | ActiveRecord: 0.2ms)
+
+
