@@ -2,8 +2,10 @@
 @Records = React.createClass
 	getInitialState: ->
 		records: @props.data
+
 	getDefaultProps: ->
 		records: []
+		
 	addRecord: (record) ->
 		records = @state.records.slice()
 		records.push record
@@ -12,8 +14,8 @@
 		React.DOM.div
 			className: 'records'
 			React.DOM.h2
-			className: 'title'
-			'Records'
+				className: 'title'
+				'Records'
 		React.DOM.table
 			className: 'table table-bordered'
 			React.DOM.thead null,
