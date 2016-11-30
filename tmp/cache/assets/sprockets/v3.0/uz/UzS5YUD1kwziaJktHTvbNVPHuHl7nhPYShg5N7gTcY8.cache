@@ -1,0 +1,13 @@
+I"Ä(function() {
+  this.RecordForm = React.createClass({
+    getInitialState: function() {
+      return {
+        title: '',
+        date: '',
+        amount: ''
+      };
+    }
+  });
+
+}).call(this);
+:ET
