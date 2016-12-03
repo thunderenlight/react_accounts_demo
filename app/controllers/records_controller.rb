@@ -1,6 +1,7 @@
 class RecordsController < ApplicationController
 	def index
 		@records = Record.all
+		puts @records.length
 	end
 
 	def create

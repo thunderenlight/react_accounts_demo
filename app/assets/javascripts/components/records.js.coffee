@@ -15,8 +15,8 @@
 		React.DOM.div
 			className: 'records'
 			React.DOM.h2
-			className: 'title'
-			'Records'
+				className: 'title'
+				'Records'
 		React.DOM.table
 			className: 'table table-bordered'
 			React.DOM.thead null,

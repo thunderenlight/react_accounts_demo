@@ -819,3 +819,185 @@ Processing by RecordsController#index as HTML
 Completed 200 OK in 82ms (Views: 79.5ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/records" for ::1 at 2016-12-02 17:16:34 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RecordsController#index as HTML
+  Rendering records/index.html.erb within layouts/application
+  [1m[36mRecord Load (14.5ms)[0m  [1m[34mSELECT "records".* FROM "records"[0m
+  Rendered records/index.html.erb within layouts/application (60.3ms)
+Completed 200 OK in 1861ms (Views: 1787.6ms | ActiveRecord: 15.4ms)
+
+
+Started GET "/records" for ::1 at 2016-12-02 17:21:43 -0600
+Processing by RecordsController#index as HTML
+  Rendering records/index.html.erb within layouts/application
+  [1m[36mRecord Load (0.9ms)[0m  [1m[34mSELECT "records".* FROM "records"[0m
+  Rendered records/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 173ms (Views: 168.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/records" for ::1 at 2016-12-02 17:34:24 -0600
+Processing by RecordsController#index as HTML
+  Rendering records/index.html.erb within layouts/application
+  [1m[36mRecord Load (0.2ms)[0m  [1m[34mSELECT "records".* FROM "records"[0m
+  Rendered records/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 1694ms (Views: 1690.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/records" for ::1 at 2016-12-02 17:38:30 -0600
+Processing by RecordsController#index as HTML
+  Rendering records/index.html.erb within layouts/application
+  [1m[36mRecord Load (0.2ms)[0m  [1m[34mSELECT "records".* FROM "records"[0m
+  Rendered records/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 286ms (Views: 282.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/records" for ::1 at 2016-12-02 17:38:53 -0600
+Processing by RecordsController#index as HTML
+  Rendering records/index.html.erb within layouts/application
+  [1m[36mRecord Load (0.2ms)[0m  [1m[34mSELECT "records".* FROM "records"[0m
+  Rendered records/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 93ms (Views: 90.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/records" for ::1 at 2016-12-02 18:06:04 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RecordsController#index as HTML
+  Rendering records/index.html.erb within layouts/application
+  [1m[36mRecord Load (15.1ms)[0m  [1m[34mSELECT "records".* FROM "records"[0m
+  Rendered records/index.html.erb within layouts/application (104.2ms)
+Completed 200 OK in 2218ms (Views: 2074.7ms | ActiveRecord: 16.2ms)
+
+
+Started GET "/records" for ::1 at 2016-12-02 18:06:37 -0600
+Processing by RecordsController#index as HTML
+  [1m[36mRecord Load (12.9ms)[0m  [1m[34mSELECT "records".* FROM "records"[0m
+  Rendering records/index.html.erb within layouts/application
+  Rendered records/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 231ms (Views: 194.7ms | ActiveRecord: 13.6ms)
+
+
+Started GET "/records" for ::1 at 2016-12-02 18:09:27 -0600
+Processing by RecordsController#index as HTML
+  [1m[36mRecord Load (14.5ms)[0m  [1m[34mSELECT "records".* FROM "records"[0m
+  Rendering records/index.html.erb within layouts/application
+  Rendered records/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 258ms (Views: 238.6ms | ActiveRecord: 14.5ms)
+
+
+Started GET "/records" for ::1 at 2016-12-02 18:45:49 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RecordsController#index as HTML
+  [1m[36mRecord Load (17.2ms)[0m  [1m[34mSELECT "records".* FROM "records"[0m
+  Rendering records/index.html.erb within layouts/application
+  Rendered records/index.html.erb within layouts/application (24.6ms)
+Completed 200 OK in 1947ms (Views: 1854.5ms | ActiveRecord: 17.9ms)
+
+
+Started GET "/records" for ::1 at 2016-12-02 18:54:18 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RecordsController#index as HTML
+  [1m[36mRecord Load (15.9ms)[0m  [1m[34mSELECT "records".* FROM "records"[0m
+  Rendering records/index.html.erb within layouts/application
+  Rendered records/index.html.erb within layouts/application (36.4ms)
+Completed 200 OK in 1432ms (Views: 1350.7ms | ActiveRecord: 17.5ms)
+
+
+Started GET "/records" for ::1 at 2016-12-02 18:54:58 -0600
+Processing by RecordsController#index as HTML
+  [1m[36mRecord Load (16.1ms)[0m  [1m[34mSELECT "records".* FROM "records"[0m
+  Rendering records/index.html.erb within layouts/application
+  Rendered records/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 256ms (Views: 236.2ms | ActiveRecord: 16.1ms)
+
+
+Started GET "/records" for ::1 at 2016-12-02 19:26:49 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RecordsController#index as HTML
+  [1m[36mRecord Load (13.7ms)[0m  [1m[34mSELECT "records".* FROM "records"[0m
+  Rendering records/index.html.erb within layouts/application
+  Rendered records/index.html.erb within layouts/application (40.8ms)
+Completed 500 Internal Server Error in 2578ms (ActiveRecord: 14.5ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:29:66: unexpected indentation):
+    2: <html>
+    3:   <head>
+    4:     <title>Accounts</title>
+    5:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7: 	<%= csrf_meta_tags %>
+    8:   </head>
+  
+app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___3100687774612196013_70210643743500'
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (18.7ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.5ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (130.2ms)
+Started GET "/records" for ::1 at 2016-12-02 19:28:19 -0600
+Processing by RecordsController#index as HTML
+  [1m[36mRecord Load (0.3ms)[0m  [1m[34mSELECT "records".* FROM "records"[0m
+  Rendering records/index.html.erb within layouts/application
+  Rendered records/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 477ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:29:66: unexpected indentation):
+    2: <html>
+    3: <head>
+    4:   <title>AccountsReactRails</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  
+app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___3100687774612196013_70210655320680'
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (22.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.8ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (168.2ms)
+Started GET "/records" for ::1 at 2016-12-02 19:29:34 -0600
+Processing by RecordsController#index as HTML
+  [1m[36mRecord Load (0.4ms)[0m  [1m[34mSELECT "records".* FROM "records"[0m
+  Rendering records/index.html.erb within layouts/application
+  Rendered records/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 791ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:29:66: unexpected indentation):
+    2: <html>
+    3:   <head>
+    4:     <title>Accounts</title>
+    5:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7: 	<%= csrf_meta_tags %>
+    8:   </head>
+  
+app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___3100687774612196013_70210710754340'
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (25.7ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.0ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (169.8ms)
+Started GET "/records" for ::1 at 2016-12-02 19:30:53 -0600
+Processing by RecordsController#index as HTML
+  [1m[36mRecord Load (0.2ms)[0m  [1m[34mSELECT "records".* FROM "records"[0m
+  Rendering records/index.html.erb within layouts/application
+  Rendered records/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1022ms (Views: 1017.9ms | ActiveRecord: 0.2ms)
+
+
