@@ -17,6 +17,9 @@
 			React.DOM.h2
 				className: 'title'
 				'Records'
+			# React.DOM.div
+				# className: 'row'
+				# 	kl
 		React.DOM.table
 			className: 'table table-bordered'
 			React.DOM.thead null,

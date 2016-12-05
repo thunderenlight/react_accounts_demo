@@ -47,7 +47,7 @@
           className: 'form-control'
           placeholder: 'Amount'
           name: 'amount'
-          value: @state.amount
+          value: @state.aount
           onChange: @handleChange
       React.DOM.button
         type: 'submit'
