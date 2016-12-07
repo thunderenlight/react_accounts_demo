@@ -10,6 +10,19 @@
 		records = React.addons.update(@state.records, { $push: [record] })
 		records.push record
 		@setState records: records
+
+	credits: ->
+		credits = @state.records.filter (val) -> val.amount >=0
+		credits.reduce (( prev, curr) ->
+			prev + parseFloat(curr.amount)
+		), 0
+	debits: ->
+		debits = @state.records.filter (val) -> val.amount < 0
+		debits.reduce ((prev, curr) ->
+			prev + parseFloat(curr.amount)
+		), 0
+	balance: ->
+		@debits() + @credits()
 	
 	render: ->
 		React.DOM.div
@@ -17,9 +30,8 @@
 			React.DOM.h2
 				className: 'title'
 				'Records'
-			# React.DOM.div
-				# className: 'row'
-				# 	kl
+			React.createElement RecordForm, handleNewRecord: @addRecord
+			React.DOM.hr null
 		React.DOM.table
 			className: 'table table-bordered'
 			React.DOM.thead null,
