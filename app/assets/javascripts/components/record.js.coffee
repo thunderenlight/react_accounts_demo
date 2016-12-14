@@ -56,12 +56,23 @@
     					type: 'text'
     					defaultValue: @props.record.title
     					ref: 'title'
-    			React.DOM.input
+    			React.DOM.td
     				className: 'form-control'
     					type: 'text'
     					defaultValue: @props.record.amount
     					ref: 'amount'
-    			React.DOM.input
+    			React.DOM.td
     				className: 'btn btn-default'
     					type: 'text'
-    					@handleEdit
+    					onClick: @handleEdit
+    					'Update'
+    			React.DOM.a
+    				className: 'btn btn-danger'
+    				onClick:  @handleToggle
+    				'Cancel'
+
+    render: -> 
+    	if @state.edit 
+    		@recordForm()
+    	else
+    		@recordRow()
